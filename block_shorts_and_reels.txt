@@ -1,0 +1,6 @@
+! Attempt to block Youtube shorts and Facebook reels
+!
+!
+youtube.com##ytd-rich-section-renderer:has(#title-text:has-text(Shorts))
+youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
+facebook.com##div:has(> a[href*="/reel/"])
